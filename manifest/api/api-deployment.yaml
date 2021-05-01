@@ -18,7 +18,7 @@ spec:
         app: api
     spec:
       containers:
-      - image: allyson2106/bootcamp-produto
+      - image: allyson2106/api-bootcamp-produto:v1
         name: bootcamp-produto
         ports:
         - containerPort: 8080
